@@ -9,6 +9,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_swipe_detector/flutter_swipe_detector.dart';
 import 'package:yeksalai/constant/constant.dart';
 import 'package:yeksalai/router/router.gr.dart';
+import 'package:yeksalai/widgets/3Dmodelviewer.dart';
 import 'package:yeksalai/widgets/topWidgetDetailedYekDes.dart';
 import 'package:parallax_image_ns/parallax_image.dart';
 
@@ -156,7 +157,10 @@ class _DetailedYekDescriptionPageState extends State<DetailedYekDescriptionPage>
                       // primary: false,
                       padding: const EdgeInsets.all(20),
                       itemBuilder: (BuildContext context, int index) {
-                        return Padding(
+                        return 
+                        // index == 4 ? const Modelviewer3D():
+
+                        Padding(
                           padding: const EdgeInsets.only(bottom: 16.0),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(12),
@@ -167,14 +171,18 @@ class _DetailedYekDescriptionPageState extends State<DetailedYekDescriptionPage>
                                     yekIndex: index));
                                 log("index ${index + 1} @ parallaxImage listview  DetailedYekDescriptionPage");
                               },
-                              child: ParallaxImage(
+                              child:
+                               index == 4 ?  Modelviewer3D(index: index, yekdetailIndex: yekdetailIndex, yekIndex: yekIndex,):
+                               ParallaxImage(
                                 color: Colors.transparent,
                                 extent: 260.0,
                                 image: ExactAssetImage(
                                   dataMap[yekdetailIndex]["YekInfo"][index]
                                       ['asset'],
                                 ),
-                                child: Row(
+                                child:
+                              //  index == 4 ?  Modelviewer3D(index: index, yekdetailIndex: yekdetailIndex):
+                                 Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.end,
                                   children: [

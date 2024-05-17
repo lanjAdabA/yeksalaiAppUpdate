@@ -21,7 +21,8 @@ List<Map<String, dynamic>> dataMap = [
         "name": "Lei/ Flower",
         "itemname": "Thambal Angangba/Red Lotus",
         "asset": "assets/images/redLotus.png",
-      },
+      },     
+      
       {
         "name": "Hei/ Fruit",
         "itemname": "Thamchet",
@@ -35,7 +36,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Chak Thang",
-        "asset": "assets/images/thangMangang.jpg"
+            "asset": 'assets/3dModel/mangang.glb',
+
+ 
+        // "asset": "assets/images/thangMangang.jpg"
       },
       {
         "name": "Shing/Firewood",
@@ -81,7 +85,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Tondum Thang",
-        "asset": "assets/images/thangLuwang.jpg"
+            "asset": 'assets/3dModel/luwang.glb',
+
+ 
+        // "asset": "assets/images/thangLuwang.jpg"
       },
       {
         "name": "Shing/Firewood",
@@ -127,7 +134,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Tonkak Thang",
-        "asset": "assets/images/thangKhuman.jpg"
+            "asset": 'assets/3dModel/khuman.glb',
+
+ 
+        // "asset": "assets/images/thangKhuman.jpg"
       },
       {
         "name": "Shing/Firewood",
@@ -173,7 +183,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Pukak Thang",
-        "asset": "assets/images/thangAngom.jpg"
+            "asset": 'assets/3dModel/angom.glb',
+
+ 
+        // "asset": "assets/images/thangAngom.jpg"
       },
       {
         "name": "Shing/Firewood",
@@ -219,7 +232,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Yentok Saba Thang",
-        "asset": "assets/images/thangMoirang.jpg"
+            "asset": 'assets/3dModel/moirang.glb',
+
+ 
+        // "asset": "assets/images/thangMoirang.jpg"
       },
       {
         "name": "Shing/Firewood",
@@ -265,7 +281,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Chinaiba Thang",
-        "asset": "assets/images/thangKhanganba.jpg"
+            "asset": 'assets/3dModel/khanganba.glb',
+
+ 
+        // "asset": "assets/images/thangKhanganba.jpg"
       },
       {
         "name": "Shing/Firewood",
@@ -311,7 +330,10 @@ List<Map<String, dynamic>> dataMap = [
       {
         "name": "Thang/Sword",
         "itemname": "Khunthong Thang",
-        "asset": "assets/images/thangSarangLeishangthem.jpg"
+            "asset": 'assets/3dModel/sarangLeishangthem.glb',
+
+ 
+        // "asset": "assets/images/thangSarangLeishangthem.jpg"
       },
       {
         "name": "Shing/Firewood",
