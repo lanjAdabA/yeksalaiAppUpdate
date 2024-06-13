@@ -14,42 +14,56 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Angangba/Red",
         "asset": "assets/images/color/oilRed.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Thambal Angangba/Red Lotus",
         "asset": "assets/images/redLotus.png",
+  
       },     
       
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Thamchet",
         "asset": "assets/images/thamchet.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Angangba",
         "asset": "assets/images/sarengAngangba.jpg"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Chak Thang",
-            "asset": 'assets/3dModel/mangang.glb',
+            "3dModel": 'assets/3dModel/mangang.glb',
+
 
  
-        // "asset": "assets/images/thangMangang.jpg"
+        "asset": "assets/images/thangMangang.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "Sayee",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },
@@ -64,41 +78,55 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Angouba/White",
         "asset": "assets/images/color/oilWhite.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Melei",
         "asset": "assets/images/melei.png"
+  
       },
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Kihom/Pineapple",
         "asset": "assets/images/pineapple.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Angouba",
         "asset": "assets/images/sarengAngouba.png"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Tondum Thang",
-            "asset": 'assets/3dModel/luwang.glb',
+            "3dModel": 'assets/3dModel/luwang.glb',
+
 
  
-        // "asset": "assets/images/thangLuwang.jpg"
+        "asset": "assets/images/thangLuwang.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "Heikru",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },
@@ -113,41 +141,55 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Amuba/Black",
         "asset": "assets/images/color/oilBlack.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Leishang",
         "asset": "assets/images/leishang.png"
+  
       },
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Heibong",
         "asset": "assets/images/heibong.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Amuba",
         "asset": "assets/images/sarengAmuba.png"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Tonkak Thang",
-            "asset": 'assets/3dModel/khuman.glb',
+            "3dModel": 'assets/3dModel/khuman.glb',
+
 
  
-        // "asset": "assets/images/thangKhuman.jpg"
+        "asset": "assets/images/thangKhuman.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "Chakhong",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },
@@ -162,41 +204,55 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Napu Machu/Yellow",
         "asset": "assets/images/color/oilYellow.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Tharo Angouba/White water lily",
         "asset": "assets/images/tharoAngouba.png"
+  
       },
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Heibong",
         "asset": "assets/images/heibong.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Angouba",
         "asset": "assets/images/sarengAngouba.png"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Pukak Thang",
-            "asset": 'assets/3dModel/angom.glb',
+            "3dModel": 'assets/3dModel/angom.glb',
+
 
  
-        // "asset": "assets/images/thangAngom.jpg"
+        "asset": "assets/images/thangAngom.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },
@@ -211,41 +267,55 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Mangra machu/Brown",
         "asset": "assets/images/color/oilbrown.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Yerum Lei",
         "asset": "assets/images/yerumlei.png"
+  
       },
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Heitup",
         "asset": "assets/images/heitup.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Napu",
         "asset": "assets/images/sarengNapu.png"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Yentok Saba Thang",
-            "asset": 'assets/3dModel/moirang.glb',
+            "3dModel": 'assets/3dModel/moirang.glb',
+
 
  
-        // "asset": "assets/images/thangMoirang.jpg"
+        "asset": "assets/images/thangMoirang.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },
@@ -260,41 +330,55 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Blue",
         "asset": "assets/images/color/oilTeal.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Leishang",
         "asset": "assets/images/leishang.png"
+  
       },
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Heiba",
         "asset": "assets/images/heiba.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Ngangna Langba",
         "asset": "assets/images/sarengAngangba.jpg"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Chinaiba Thang",
-            "asset": 'assets/3dModel/khanganba.glb',
+            "3dModel": 'assets/3dModel/khanganba.glb',
+
 
  
-        // "asset": "assets/images/thangKhanganba.jpg"
+        "asset": "assets/images/thangKhanganba.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },
@@ -309,41 +393,55 @@ List<Map<String, dynamic>> dataMap = [
     "YekInfo": [
       {
         "name": "Machu/Color",
+       "3dModel":"",
         "itemname": "Ashangba/Green",
         "asset": "assets/images/color/oilGreen.png"
+  
       },
       {
         "name": "Lei/ Flower",
+       "3dModel":"",
         "itemname": "Leishang",
         "asset": "assets/images/leishang.png"
+  
       },
       {
         "name": "Hei/ Fruit",
+       "3dModel":"",
         "itemname": "Hei Manam Naiba",
         "asset": "assets/images/manamNaiba.png"
+  
       },
       {
         "name": "Nga/Fish",
+       "3dModel":"",
         "itemname": "Sareng Sangna Langba",
         "asset": "assets/images/sarengArangba.png"
+  
       },
       {
         "name": "Thang/Sword",
+      //  "3dModel":"",
         "itemname": "Khunthong Thang",
-            "asset": 'assets/3dModel/sarangLeishangthem.glb',
+            "3dModel": 'assets/3dModel/sarangLeishangthem.glb',
+
 
  
-        // "asset": "assets/images/thangSarangLeishangthem.jpg"
+        "asset": "assets/images/thangSarangLeishangthem.jpg"
       },
       {
         "name": "Shing/Firewood",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
       {
         "name": "Ta/Spear",
+       "3dModel":"",
         "itemname": "NA",
         "asset": "assets/images/noData.jpg"
+  
       },
     ]
   },

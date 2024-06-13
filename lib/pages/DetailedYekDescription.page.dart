@@ -150,69 +150,79 @@ class _DetailedYekDescriptionPageState extends State<DetailedYekDescriptionPage>
                   ),
                   Expanded(
                     flex: 7,
-                    child: ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: yekinfo.length,
-                      // physics: const NeverScrollableScrollPhysics(),
-                      // primary: false,
-                      padding: const EdgeInsets.all(20),
-                      itemBuilder: (BuildContext context, int index) {
-                        return 
-                        // index == 4 ? const Modelviewer3D():
-
-                        Padding(
-                          padding: const EdgeInsets.only(bottom: 16.0),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(12),
-                            child: GestureDetector(
-                              onTap: () {
-                                context.router.push(ItemDescriptionRoute(
-                                    yekdetailIndex: yekdetailIndex,
-                                    yekIndex: index));
-                                log("index ${index + 1} @ parallaxImage listview  DetailedYekDescriptionPage");
-                              },
-                              child:
-                               index == 4 ?  Modelviewer3D(index: index, yekdetailIndex: yekdetailIndex, yekIndex: yekIndex,):
-                               ParallaxImage(
-                                color: Colors.transparent,
-                                extent: 260.0,
-                                image: ExactAssetImage(
-                                  dataMap[yekdetailIndex]["YekInfo"][index]
-                                      ['asset'],
-                                ),
+                    child: Scrollbar(
+                      thickness: 6,
+                      child: ListView.builder(
+                        shrinkWrap: true,
+                        itemCount: yekinfo.length,
+                        // physics: const NeverScrollableScrollPhysics(),
+                        // primary: false,
+                        padding: const EdgeInsets.all(20),
+                        itemBuilder: (BuildContext context, int index) {
+                          return 
+                          // index == 4 ? const Modelviewer3D():
+                      
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 16.0),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(12),
+                              child: GestureDetector(
+                                onTap: () { 
+                                  context.router.push(ItemDescriptionRoute(
+                                      yekdetailIndex: yekdetailIndex,
+                                      yekIndex: index, index: index));
+                                  log("index ${index + 1} @ parallaxImage listview  DetailedYekDescriptionPage");
+                                },
                                 child:
-                              //  index == 4 ?  Modelviewer3D(index: index, yekdetailIndex: yekdetailIndex):
-                                 Row(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  mainAxisAlignment: MainAxisAlignment.end,
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.all(12.0),
-                                      child: Text(
-                                        dataMap[yekIndex]["YekInfo"][index]
-                                            ["itemname"],
-                                        style: TextStyle(
-                                            fontSize: scwidth / 20,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.grey[200]),
-                                      )
-                                          .animate(
-                                            onPlay: (controller) =>
-                                                controller.repeat(),
-                                          )
-                                          .shimmer(
-                                            duration: const Duration(
-                                                milliseconds: 4444),
-                                            color: Colors.grey[800],
-                                          ),
-                                    ),
-                                  ],
+                                //  index == 4 ?  GestureDetector(
+                                  
+                                //   onTap: () {
+                                //     log("3d model tapped");
+                      
+                                //   },
+                                  
+                                //   child: Modelviewer3D(index: index, yekdetailIndex: yekdetailIndex, yekIndex: yekIndex,)):
+                                 ParallaxImage(
+                                  color: Colors.transparent,
+                                  extent: 260.0,
+                                  image: ExactAssetImage(
+                                    dataMap[yekdetailIndex]["YekInfo"][index]
+                                        ['asset'],
+                                  ),
+                                  child:
+                                //  index == 4 ?  Modelviewer3D(index: index, yekdetailIndex: yekdetailIndex):
+                                   Row(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(12.0),
+                                        child: Text(
+                                          dataMap[yekIndex]["YekInfo"][index]
+                                              ["itemname"],
+                                          style: TextStyle(
+                                              fontSize: scwidth / 20,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.grey[200]),
+                                        )
+                                            .animate(
+                                              onPlay: (controller) =>
+                                                  controller.repeat(),
+                                            )
+                                            .shimmer(
+                                              duration: const Duration(
+                                                  milliseconds: 4444),
+                                              color: Colors.grey[800],
+                                            ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                        );
-                      },
+                          );
+                        },
+                      ),
                     ),
                   ),
                 ],

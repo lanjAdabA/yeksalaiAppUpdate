@@ -2,19 +2,24 @@
 //! /NewYekSalaiPage / DetailedYekDescriptionPage /listView-->
 //! /ItemDescriptionPage
 
+import 'dart:developer';
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:parallax_image_ns/parallax_image.dart';
 import 'package:yeksalai/constant/constant.dart';
+import 'package:yeksalai/widgets/3Dmodelviewer.dart';
 
 @RoutePage()
 class ItemDescriptionPage extends StatelessWidget {
   final int yekdetailIndex;
   final int yekIndex;
+    final int index;
+
 
   const ItemDescriptionPage(
-      {super.key, required this.yekdetailIndex, required this.yekIndex});
+      {super.key, required this.yekdetailIndex, required this.yekIndex, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +54,17 @@ class ItemDescriptionPage extends StatelessWidget {
                 ),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
-                  child: ParallaxImage(
+                  child:
+                     index == 4 ?  GestureDetector(
+                                  
+                                  onTap: () {
+                                    log("3d model tapped");
+                      
+                                  },
+                                  
+                                  child: Modelviewer3D(index: index,
+                                   yekdetailIndex: yekdetailIndex, yekIndex: yekIndex,)):
+                   ParallaxImage(
                     color: Colors.transparent,
                     extent: 400.0,
                     image: ExactAssetImage(

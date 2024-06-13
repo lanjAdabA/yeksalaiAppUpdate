@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:model_viewer_plus/model_viewer_plus.dart';
 import 'package:yeksalai/constant/constant.dart';
+import 'dart:developer';
+
 
 
 
@@ -20,21 +22,27 @@ class Modelviewer3D extends StatelessWidget {
 
  
 return 
-Container(height: 260, 
+Container(height: 360, 
           child:  Stack(alignment: Alignment.topCenter,
             children: [   ModelViewer(
-               arScale:ArScale.auto ,
-               backgroundColor: Color.fromARGB(255, 76, 74, 74),
+              //  arScale:ArScale.auto ,
+               backgroundColor: Color.fromARGB(255, 76, 74, 74),    
+                // src: "assets/3dModel/Thang.glb",
+               
                src:  dataMap[yekdetailIndex]["YekInfo"][index]
-                                          ['asset'],
-               alt: 'A 3D model of an astronaut',
+                                          ['3dModel'],
                ar: true,
+
+               disableTap:true ,
+              //  fieldOfView: "30deg",
+              
+               
                arModes: ['scene-viewer', 'webxr', 'quick-look'],
-               autoRotate: true,
-               disableZoom: true,
+              //  autoRotate: true,
+               disableZoom: false,
                cameraControls: true,cameraOrbit:"40%" ,
                             ),
-  Row(
+            Row(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.end,
                                   children: [
